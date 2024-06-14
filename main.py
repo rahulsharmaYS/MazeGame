@@ -7,9 +7,9 @@ import time
 #constants for different difficulty levels
 DIFFICULTY_SETTINGS = {
     'Easy': (400, 16, 0.8, 10),
-    'Medium': (400, 16, 0.6, 10),
-    'Hard': (560, 16, 0.4, 15),
-    'Very Hard': (560, 16, 0.2, 15),
+    'Medium': (400, 16, 0.6, 12),
+    'Hard': (560, 16, 0.4, 12),
+    'Very Hard': (560, 16, 0.2, 12),
     'Impossible': (560, 16, 0.1, 20)
 }
 

@@ -208,7 +208,8 @@ def select_difficulty():
 def display_congrats_message(next_difficulty=None):
     congrats_canvas = Canvas(500, 400)
     if next_difficulty:
-        congrats_canvas.create_text(100, 200, text=f"🎉Congratulations! Now try {next_difficulty} level!🎉", color="Green", font='Arial', font_size=20)
+        congrats_canvas.create_text(50, 200, text=f"🎉Congratulations! Now try {next_difficulty} level!🎉", color="Green", font='Papyrus', font_size=20)
+        congrats_canvas.create_text(200, 250, text=f"Loading...", color="Black", font='Arial', font_size=20)
     else:
         congrats_canvas.create_text(30, 100, text="🎉Congratulations! You have cleared all difficulty levels! 🎉", color="Green", font='Arial', font_size=16)
         congrats_canvas.create_text(30, 150, text="My developer could only do up to Very Hard, so that's as tough as it gets!", color="black", font='Arial', font_size=14)
